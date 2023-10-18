@@ -30,4 +30,10 @@ public class Article {
         this.content = content;
     }
 
+    //글 수정하는 비즈니스 로직
+    public void update(String title, String content) {
+        this.title = title;
+        this.content = content;
+    }
+
 }
